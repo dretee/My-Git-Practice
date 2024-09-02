@@ -80,3 +80,7 @@ def test_the_login_of_users_with_wrong_password(self, setup):
     finally:
         self.log_test_end("******* Verify that a user cannot log in with an incorrect password *******")
         self.driver.quit()
+
+finally:
+self.log_test_end("******* Verify that a user cannot log in with an incorrect password *******")
+self.driver.quit()
